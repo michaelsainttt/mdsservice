@@ -30,7 +30,7 @@ function Footer(){
                 <h6 className="footer-title">Contact</h6>
                 <a className="link link-hover">786-###-####</a>
                 <a className="link link-hover">@mdsservicesgroupcorp</a>
-                <a className="link link-hover">Miami, FL, 1260 SW</a>
+                <a className="link link-hover">4510 SW 137Th Ct, Miami, Florida 33175</a>
             </nav>
     </footer>
     )
