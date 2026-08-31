@@ -173,7 +173,7 @@ function Contact() {
 
                             </div>
 
-                            <Link to="/benefits" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
+                            <Link onClick={() => window.scrollTo(0, 0)} to="/benefits" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
                                 Driver Benefits →
                             </Link>
 

@@ -66,7 +66,7 @@ function HomeSpanish(){
                     <p className="mt-6 max-w-lg text-base sm:text-lg leading-relaxed text-slate-600">
                         En MDS Services Group Corp., creemos que las grandes relaciones generan grandes resultados. Somos más que una compañía de dispatch — somos un socio en la carretera.
                     </p>
-                    <Link to="/es/contacto" className="btn mt-8 bg-blue-600 text-white border-none hover:bg-blue-700 px-7">
+                    <Link onClick={() => window.scrollTo(0, 0)} to="/es/contacto" className="btn mt-8 bg-blue-600 text-white border-none hover:bg-blue-700 px-7">
                         Trabaja con Nosotros
                         <span>→</span>
                     </Link>
@@ -206,7 +206,7 @@ function HomeSpanish(){
                             <p className="mt-6 text-lg leading-relaxed text-slate-600">
                                 Únete a un equipo que pone a los conductores primero, con apoyo confiable, oportunidades y servicio.
                             </p>
-                            <Link to="/es/contacto" className="btn mt-8 bg-blue-600 text-white border-0">
+                            <Link onClick={() => window.scrollTo(0, 0)} to="/es/contacto" className="btn mt-8 bg-blue-600 text-white border-0">
                                 Contáctanos
                                 <span>→</span>
                             </Link>

@@ -76,10 +76,10 @@ function Home(){
                         results. We're more than a dispatch company — we're a partner on the road.
                     </p>
 
-                    <button className="btn mt-8 bg-blue-600 text-white border-none hover:bg-blue-700 px-7">
-                        Work With Us  
+                    <Link onClick={() => window.scrollTo(0, 0)} to="/contact" className="btn mt-8 bg-blue-600 text-white border-none hover:bg-blue-700 px-7">
+                        Work With Us
                         <span>→</span>
-                    </button>
+                    </Link>
 
                     </div>
             </section>
@@ -96,7 +96,10 @@ function Home(){
                     <p>What started as a small team with strong values has grown into a trusted partner for drivers across the country. Through relationships with more than 250 brokers, we help connect our drivers with opportunities while providing the support they need to stay focused on the road.</p>
                     <p>As MDS continues to grow, our priorities remain the same. We believe in transparent communication, dependable service, and putting our drivers first. Every mile, every load, and every partnership matters to us.</p>
                 </div>
-                <button className = "btn mt-8 bg-blue-600 text-white border-none hover:bg-blue-700 px-7">Learn More About Us <span>→</span></button>
+                <Link onClick={() => window.scrollTo(0, 0)} to="/about" className="btn mt-8 bg-blue-600 text-white border-none hover:bg-blue-700 px-7">
+                    Learn More About Us
+                    <span>→</span>
+                </Link>
             </div>
             <div className="relative w-full hidden lg:block">
                 <img className="w-11/12 h-100 object-cover rounded-2xl shadow-lg shadow-blue-300" src={truckimage2} alt="MDS truck" />
@@ -207,7 +210,7 @@ function Home(){
                         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">Ready to get started?</p>
                         <h2 className = "mt-4 text-4xl lg:text-5xl leading-tight font-bold text-slate-900">Let's Build the Road Ahead, Together.</h2>
                         <p className = "mt-6 text-lg leading-relaxed text-slate-600">Join a team that puts drivers first with reliable support, opportunities, and service.</p>
-                        <Link to="/contact" className="btn mt-8 bg-blue-600 text-white border-0">
+                        <Link onClick={() => window.scrollTo(0, 0)} to="/contact" className="btn mt-8 bg-blue-600 text-white border-0">
                                 Contact Us
                                 <span>→</span>
                             </Link>

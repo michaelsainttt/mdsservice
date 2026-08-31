@@ -237,7 +237,7 @@ function Benefits() {
 
               </div>
 
-              <Link to="/contact" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
+              <Link onClick={() => window.scrollTo(0, 0)} to="/contact" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
                   Contact Us →
               </Link>
 
