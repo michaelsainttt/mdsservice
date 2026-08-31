@@ -204,7 +204,10 @@ function Home(){
                         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">Ready to get started?</p>
                         <h2 className = "mt-4 text-4xl lg:text-5xl leading-tight font-bold text-slate-900">Let's Build the Road Ahead, Together.</h2>
                         <p className = "mt-6 text-lg leading-relaxed text-slate-600">Join a team that puts drivers first with reliable support, opportunities, and service.</p>
-                        <button className = "btn mt-8 bg-blue-600 text-white border-0">Contact Us <span>→</span></button>
+                        <Link to="/es/contacto" className="btn mt-8 bg-blue-600 text-white border-0">
+                                Contact Us
+                                <span>→</span>
+                            </Link>
                     </div>
                         <div>
                             <img className = "w-full mt-6 lg:mt-0 object-cover rounded-2xl shadow-lg shadow-blue-300"src={truckimage3}></img>
