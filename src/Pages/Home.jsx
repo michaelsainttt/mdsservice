@@ -3,6 +3,9 @@ import Nav from "../components/Nav"
 import truckimage1 from "../assets/TruckInHorizon1.png"
 import truckimage2 from "../assets/backgroundimage2.jpg"
 import truckimage3 from "../assets/Image3.jpg"
+import { Link } from "react-router-dom"
+
+
 import {
   ShieldCheck,
   Handshake,
@@ -204,7 +207,7 @@ function Home(){
                         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">Ready to get started?</p>
                         <h2 className = "mt-4 text-4xl lg:text-5xl leading-tight font-bold text-slate-900">Let's Build the Road Ahead, Together.</h2>
                         <p className = "mt-6 text-lg leading-relaxed text-slate-600">Join a team that puts drivers first with reliable support, opportunities, and service.</p>
-                        <Link to="/es/contacto" className="btn mt-8 bg-blue-600 text-white border-0">
+                        <Link to="/contact" className="btn mt-8 bg-blue-600 text-white border-0">
                                 Contact Us
                                 <span>→</span>
                             </Link>
