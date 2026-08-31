@@ -62,7 +62,7 @@ function Footer() {
                     mdsservices01@gmail.com
                 </a>
                 <a href="tel:+13054347139" className="link link-hover">
-                    (305) 434-7139
+                    (786) 486-4982
                 </a>
                 <a href="https://maps.google.com/?q=4510+SW+137th+Ct+Miami+Florida+33175" target="_blank" rel="noopener noreferrer" className="link link-hover">
                     4510 SW 137th Ct, Miami, Florida 33175

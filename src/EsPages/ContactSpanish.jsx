@@ -49,7 +49,7 @@ function ContactSpanish() {
                                         Teléfono
                                     </p>
                                     <p className="mt-1 text-lg font-semibold">
-                                        (305) 434-7139
+                                        (786) 486-4982
                                     </p>
                                 </div>
                             </div>
