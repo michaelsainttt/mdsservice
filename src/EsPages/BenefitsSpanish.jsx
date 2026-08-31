@@ -169,7 +169,7 @@ function BenefitsSpanish() {
                   Ponte en contacto con nuestro equipo y conoce más sobre las oportunidades disponibles para ti.
                 </p>
               </div>
-              <Link to="/es/ContactSpanish" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
+              <Link to="/es/contacto" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
                 Contáctanos →
               </Link>
             </div>

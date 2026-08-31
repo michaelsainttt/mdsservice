@@ -72,7 +72,7 @@ function Benefits() {
 
 
       {/* HERO */}
-      <section className="relative min-h-130 bg-cover  bg-no-repeat flex items-center bg-left sm:bg-center" style={{ backgroundImage: `url(${bgimage1})` }}>
+      <section className="relative min-h-130 bg-cover bg-no-repeat flex items-center bg-left sm:bg-center" style={{ backgroundImage: `url(${bgimage1})` }}>
 
         <div className="max-w-7xl w-full mx-auto px-6 lg:px-8">
 

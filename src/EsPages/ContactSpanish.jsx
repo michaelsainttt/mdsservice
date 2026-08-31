@@ -108,7 +108,7 @@ function ContactSpanish() {
                                     Conoce más sobre los beneficios disponibles para nuestros conductores.
                                 </p>
                             </div>
-                            <Link to="/es/BenefitsSpanish" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
+                            <Link to="/es/beneficios" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
                                 Beneficios para Conductores →
                             </Link>
                         </div>
