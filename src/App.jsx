@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route, useLocation} from "react-router-dom"
 
 import "./App.css"
 
@@ -17,23 +17,22 @@ import BenefitsSpanish from "./EsPages/BenefitsSpanish"
 import AboutSpanish from "./EsPages/AboutSpanish"
 
 
-function App() {
+function AnimatedRoutes() {
+
+  const location = useLocation()
 
   return (
 
-    <BrowserRouter>
+    <div key={location.pathname} className="page-transition">
 
-      <Routes>
+      <Routes location={location}>
 
-        {/* ENGLISH */}
         <Route path="/" element={<Home />} />
         <Route path="/benefits" element={<Benefits />} />
         <Route path="/about" element={<About />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
 
-
-        {/* SPANISH */}
         <Route path="/es" element={<HomeSpanish />} />
         <Route path="/es/beneficios" element={<BenefitsSpanish />} />
         <Route path="/es/nosotros" element={<AboutSpanish />} />
@@ -42,6 +41,19 @@ function App() {
 
       </Routes>
 
+    </div>
+
+  )
+
+}
+
+
+function App() {
+
+  return (
+
+    <BrowserRouter>
+      <AnimatedRoutes />
     </BrowserRouter>
 
   )

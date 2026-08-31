@@ -1,5 +1,6 @@
 import Footer from "../components/Footer"
 import Nav from "../components/Nav"
+import { Link } from "react-router-dom"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
 
 function Contact() {
@@ -172,9 +173,9 @@ function Contact() {
 
                             </div>
 
-                            <a href="/driver-benefits" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
+                            <Link to="/benefits" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
                                 Driver Benefits →
-                            </a>
+                            </Link>
 
                         </div>
 

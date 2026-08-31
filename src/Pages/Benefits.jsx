@@ -1,6 +1,8 @@
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
 import bgimage1 from "../assets/bg-image.png"
+import { Link } from "react-router-dom"
+
 
 import {
   Network,
@@ -235,9 +237,9 @@ function Benefits() {
 
               </div>
 
-              <a href="/contact" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
-                Contact Us →
-              </a>
+              <Link to="/contact" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
+                  Contact Us →
+              </Link>
 
             </div>
 
