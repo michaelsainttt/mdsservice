@@ -1,6 +1,7 @@
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
 
+
 import aboutImage1 from "../assets/TruckInHorizon1.png"
 import aboutImage2 from "../assets/TruckImage.jpg"
 
@@ -16,17 +17,17 @@ function About() {
         <div className="max-w-7xl w-full mx-auto px-6 lg:px-8">
           <div className="max-w-xl">
             <p className="text-sm font-semibold text-blue-600 tracking-[0.2em]">
-              ABOUT MDS
+              SOBRE MDS
             </p>
             <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
-              Built Around
+              Una Compañía Pensada
               <span className="block text-blue-600">
-                Drivers.
+                Para los Conductores.
               </span>
             </h1>
             <div className="w-16 h-1 bg-blue-600 mt-6"></div>
             <p className="mt-6 text-base sm:text-lg text-slate-600 leading-relaxed max-w-lg">
-              MDS Services Group Corp. was created with one goal in mind: to give drivers a company they can depend on.
+              MDS Services Group Corp. fue creada con un objetivo en mente: ofrecer a los conductores una compañía en la que puedan confiar.
             </p>
           </div>
         </div>
@@ -41,31 +42,32 @@ function About() {
                   250+
                 </p>
                 <p className="text-sm text-blue-100">
-                  Broker Relationships
+                  Relaciones con Brokers
                 </p>
               </div>
+
             </div>
             <div>
               <p className="text-sm font-semibold text-blue-600 tracking-[0.2em]">
-                OUR STORY
+                NUESTRA HISTORIA
               </p>
               <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight">
-                A Company Drivers
+                Una Compañía en la que los Conductores
                 <span className="block text-blue-600">
-                  Can Depend On.
+                  Pueden Confiar.
                 </span>
               </h2>
               <p className="mt-6 text-slate-600 leading-relaxed">
-                MDS Services Group Corp. was founded with a simple mission: to build a company where drivers are treated with honesty, respect, and fairness.
+                MDS Services Group Corp. fue fundada con una misión sencilla: crear una compañía donde los conductores sean tratados con honestidad, respeto y justicia.
               </p>
               <p className="mt-5 text-slate-600 leading-relaxed">
-                What started as a small team with strong values has grown into a trusted partner for drivers across the country. Through relationships with more than 250 brokers, we connect drivers with freight opportunities while providing the support they need to stay focused on the road.
+                Lo que comenzó como un pequeño equipo con valores sólidos se ha convertido en un socio de confianza para conductores en todo el país. Gracias a nuestras relaciones con más de 250 brokers, conectamos a nuestros conductores con oportunidades de carga mientras les brindamos el apoyo que necesitan para mantenerse enfocados en la carretera.
               </p>
               <p className="mt-5 text-slate-600 leading-relaxed">
-                Our approach is personal. We take the time to understand each driver's experience, preferences, and needs instead of treating every driver the same.
+                Nuestro enfoque es personal. Nos tomamos el tiempo para conocer la experiencia, las preferencias y las necesidades de cada conductor, en lugar de tratar a todos de la misma manera.
               </p>
               <p className="mt-5 text-slate-600 leading-relaxed">
-                As MDS continues to grow, our priorities remain simple: dependable service, fair treatment, clear communication, and long-term relationships with the drivers we work with.
+                A medida que MDS continúa creciendo, nuestras prioridades siguen siendo las mismas: servicio confiable, trato justo, comunicación clara y relaciones duraderas con los conductores con quienes trabajamos.
               </p>
             </div>
           </div>
@@ -75,14 +77,14 @@ function About() {
         <div className="max-w-7xl w-full mx-auto px-6 lg:px-8">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold text-blue-600 tracking-[0.2em]">
-              WHAT WE BELIEVE
+              EN LO QUE CREEMOS
             </p>
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight">
-              The Way We Do Business Matters.
+              La Forma en que Hacemos Negocios Importa.
             </h2>
             <div className="w-16 h-1 bg-blue-600 mt-6"></div>
             <p className="mt-6 text-lg text-slate-600 leading-relaxed">
-              Our relationships with drivers are built around a few simple principles.
+              Nuestras relaciones con los conductores se basan en principios simples.
             </p>
           </div>
           <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -91,10 +93,10 @@ function About() {
                 01
               </p>
               <h3 className="mt-3 text-2xl font-semibold">
-                Respect
+                Respeto
               </h3>
               <p className="mt-4 text-slate-600 leading-relaxed">
-                Every driver deserves to be treated as a valued partner. We listen to our drivers and work with their experience, interests, and needs in mind.
+                Cada conductor merece ser tratado como un socio valioso. Escuchamos a nuestros conductores y trabajamos teniendo en cuenta su experiencia, sus intereses y sus necesidades.
               </p>
             </div>
             <div className="border-t-2 border-slate-900 pt-6">
@@ -102,10 +104,10 @@ function About() {
                 02
               </p>
               <h3 className="mt-3 text-2xl font-semibold">
-                Transparency
+                Transparencia
               </h3>
               <p className="mt-4 text-slate-600 leading-relaxed">
-                Clear communication matters. Drivers receive complete load confirmations and detailed settlements so they always understand the work and their payments.
+                La comunicación clara es importante. Los conductores reciben confirmaciones completas de las cargas y liquidaciones detalladas para que siempre comprendan el trabajo realizado y sus pagos.
               </p>
             </div>
             <div className="border-t-2 border-slate-900 pt-6">
@@ -113,10 +115,10 @@ function About() {
                 03
               </p>
               <h3 className="mt-3 text-2xl font-semibold">
-                Support
+                Apoyo
               </h3>
               <p className="mt-4 text-slate-600 leading-relaxed">
-                The road doesn't stop at five o'clock. Our team provides 24/7 assistance to help drivers handle the challenges they encounter on the road.
+                La carretera no se detiene al final del día. Nuestro equipo brinda asistencia las 24 horas, los 7 días de la semana, para ayudar a los conductores con los desafíos que puedan encontrar en el camino.
               </p>
             </div>
           </div>
@@ -127,16 +129,16 @@ function About() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <p className="text-sm font-semibold text-blue-600 tracking-[0.2em]">
-                HOW WE WORK
+                CÓMO TRABAJAMOS
               </p>
               <h2 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight leading-tight">
-                Personal Service From
+                Atención Personalizada
                 <span className="block text-blue-600">
-                  Start to Finish.
+                  de Principio a Fin.
                 </span>
               </h2>
               <p className="mt-6 text-slate-600 leading-relaxed">
-                We believe good service comes from communication. That's why we work directly with our drivers and keep them informed throughout the process.
+                Creemos que un buen servicio comienza con una buena comunicación. Por eso trabajamos directamente con nuestros conductores y los mantenemos informados durante todo el proceso.
               </p>
               <div className="mt-8 space-y-5">
                 <div className="flex items-start gap-4">
@@ -148,7 +150,7 @@ function About() {
                       Complete Load Information
                     </h3>
                     <p className="mt-1 text-sm text-slate-600">
-                      Drivers receive full confirmations instead of shortened summaries.
+                      Los conductores reciben las confirmaciones completas de las cargas en lugar de resúmenes abreviados.
                     </p>
                   </div>
                 </div>
@@ -158,10 +160,10 @@ function About() {
                   </div>
                   <div>
                     <h3 className="font-semibold">
-                      Personalized Opportunities
+                      Oportunidades Personalizadas
                     </h3>
                     <p className="mt-1 text-sm text-slate-600">
-                      We consider each driver's experience and interests when working with them.
+                      Tomamos en cuenta la experiencia y los intereses de cada conductor al trabajar con ellos.
                     </p>
                   </div>
                 </div>
@@ -171,10 +173,10 @@ function About() {
                   </div>
                   <div>
                     <h3 className="font-semibold">
-                      Clear Settlements
+                      Liquidaciones Claras
                     </h3>
                     <p className="mt-1 text-sm text-slate-600">
-                      Payment-day settlements are sent by email with a clear breakdown of income and expenses.
+                      Las liquidaciones se envían por correo electrónico el día de pago con un desglose claro de los ingresos y gastos.
                     </p>
                   </div>
                 </div>
@@ -184,10 +186,10 @@ function About() {
                   </div>
                   <div>
                     <h3 className="font-semibold">
-                      24/7 Assistance
+                      Asistencia 24/7
                     </h3>
                     <p className="mt-1 text-sm text-slate-600">
-                      Our team is available around the clock to provide support whenever possible.
+                      Nuestro equipo está disponible las 24 horas para brindar apoyo siempre que sea posible.
                     </p>
                   </div>
                 </div>
@@ -195,13 +197,13 @@ function About() {
             </div>
             <div className="bg-slate-900 rounded-2xl p-8 md:p-10 text-white">
               <p className="text-sm font-semibold text-blue-400 tracking-[0.2em]">
-                MDS AT A GLANCE
+                MDS EN NÚMEROS
               </p>
               <h3 className="mt-3 text-3xl font-bold">
-                Built to Keep Drivers Moving.
+                Preparados para Mantener a los Conductores en Movimiento.
               </h3>
               <p className="mt-5 text-slate-300 leading-relaxed">
-                Our services are designed around the real needs drivers face every day.
+                Nuestros servicios están diseñados pensando en las necesidades reales que enfrentan los conductores todos los días.
               </p>
               <div className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10">
                 <div>
@@ -209,7 +211,7 @@ function About() {
                     250+
                   </p>
                   <p className="mt-2 text-sm text-slate-300">
-                    Broker Relationships
+                    Relaciones con Brokers
                   </p>
                 </div>
                 <div>
@@ -217,7 +219,7 @@ function About() {
                     24/7
                   </p>
                   <p className="mt-2 text-sm text-slate-300">
-                    Driver Support
+                    Apoyo al Conductor
                   </p>
                 </div>
                 <div>
@@ -225,7 +227,7 @@ function About() {
                     48 Hr
                   </p>
                   <p className="mt-2 text-sm text-slate-300">
-                    Payment Option
+                    Opción de Pago
                   </p>
                 </div>
                 <div>
@@ -233,7 +235,7 @@ function About() {
                     $0
                   </p>
                   <p className="mt-2 text-sm text-slate-300">
-                    Escrow Required
+                    Escrow Requerido
                   </p>
                 </div>
               </div>
@@ -241,27 +243,37 @@ function About() {
           </div>
         </div>
       </section>
+
+
+
+      {/* CTA */}
       <section className="py-16 md:py-24 bg-slate-100">
+
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
+
           <div className="max-w-5xl mx-auto bg-blue-600 rounded-2xl px-8 py-12 md:px-12 md:py-14 shadow-lg">
+
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
+
               <div className="max-w-xl text-center md:text-left">
+
                 <p className="text-sm font-semibold text-blue-100 tracking-[0.2em]">
-                  WORK WITH MDS
+                  TRABAJA CON MDS
                 </p>
+
                 <h2 className="mt-3 text-3xl md:text-4xl font-bold text-white">
-                  Ready to Get on the Road?
+                  ¿Listo para Salir a la Carretera?
                 </h2>
 
                 <p className="mt-4 text-blue-100 leading-relaxed">
-                  Talk with our team and learn more about working with MDS Services Group Corp.
+                  Habla con nuestro equipo y conoce más sobre las oportunidades de trabajar con MDS Services Group Corp.
                 </p>
 
               </div>
 
 
               <a href="/contact" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
-                Contact Us →
+                Contáctanos →
               </a>
 
             </div>

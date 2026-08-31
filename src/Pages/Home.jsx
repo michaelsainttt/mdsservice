@@ -95,9 +95,8 @@ function Home(){
                 </div>
                 <button className = "btn mt-8 bg-blue-600 text-white border-none hover:bg-blue-700 px-7">Learn More About Us <span>→</span></button>
             </div>
-            <div className=" relative w-full">
-                <img className="w-11/12 h-100 object-cover rounded-2xl shadow-lg shadow-blue-300" src={truckimage2}/>
-
+            <div className="relative w-full hidden lg:block">
+                <img className="w-11/12 h-100 object-cover rounded-2xl shadow-lg shadow-blue-300" src={truckimage2} alt="MDS truck" />
                 <div className="absolute bottom-0 right-0 bg-blue-700 text-white rounded-2xl p-6 shadow-lg">
                     <p className="text-4xl font-bold">250+</p>
                     <p className="font-semibold">Brokers</p>

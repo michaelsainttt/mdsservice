@@ -1,5 +1,7 @@
 import Nav from "../components/Nav"
 import Footer from "../components/Footer"
+import { Link } from "react-router-dom"
+
 import bgimage1 from "../assets/bg-image.png"
 
 import {
@@ -14,244 +16,169 @@ import {
 } from "lucide-react"
 
 
-function Benefits() {
+function BenefitsSpanish() {
 
   const benefits = [
     {
-      title: "250+ Broker Network",
-      description: "Strong relationships with more than 250 brokers give our drivers access to a wide range of freight opportunities.",
+      title: "Red de Más de 250 Brokers",
+      description: "Nuestras relaciones con más de 250 brokers brindan a nuestros conductores acceso a una amplia variedad de oportunidades de carga.",
       icon: <Network className="w-7 h-7" />
     },
     {
-      title: "All Trailer Types",
-      description: "We work with refrigerated, dry van, and flatbed loads to provide drivers with more opportunities.",
+      title: "Todo Tipo de Tráilers",
+      description: "Trabajamos con cargas refrigeradas, secas y flatbed para ofrecer más oportunidades a nuestros conductores.",
       icon: <Truck className="w-7 h-7" />
     },
     {
-      title: "Fuel Savings",
-      description: "Fuel cards offer discounts of up to 30 cents per gallon and can also be used for cash advances.",
+      title: "Ahorro en Combustible",
+      description: "Nuestras tarjetas de combustible ofrecen descuentos de hasta 30 centavos por galón y también pueden utilizarse para adelantos de efectivo.",
       icon: <Fuel className="w-7 h-7" />
     },
     {
-      title: "Fast & Flexible Pay",
-      description: "Get paid within 48 hours after delivering a load or choose weekly payments based on your preference.",
+      title: "Pagos Rápidos y Flexibles",
+      description: "Recibe tu pago dentro de las 48 horas después de entregar una carga o elige pagos semanales según tu preferencia.",
       icon: <Clock className="w-7 h-7" />
     },
     {
-      title: "24/7 Driver Support",
-      description: "Our team is available around the clock to assist drivers with their needs on the road.",
+      title: "Apoyo al Conductor 24/7",
+      description: "Nuestro equipo está disponible las 24 horas para ayudar a nuestros conductores con sus necesidades en la carretera.",
       icon: <Headphones className="w-7 h-7" />
     },
     {
-      title: "Affordable Insurance",
-      description: "Competitive liability and cargo insurance options are available without requiring a down payment.",
+      title: "Seguros a Precios Accesibles",
+      description: "Ofrecemos opciones competitivas de seguros de responsabilidad civil y carga sin necesidad de pago inicial.",
       icon: <ShieldCheck className="w-7 h-7" />
     },
     {
-      title: "No Escrow",
-      description: "MDS does not require an escrow account, giving drivers more control over their money.",
+      title: "Sin Escrow",
+      description: "MDS no requiere escrow, lo que permite a los conductores mantener mayor control sobre su dinero.",
       icon: <WalletCards className="w-7 h-7" />
     },
     {
-      title: "Trailer Rental",
-      description: "Reasonably priced trailer rental options are available to help drivers stay on the road.",
+      title: "Renta de Tráilers",
+      description: "Ofrecemos opciones de renta de tráilers a precios razonables para ayudar a nuestros conductores a mantenerse en la carretera.",
       icon: <Truck className="w-7 h-7" />
     },
     {
-      title: "Repair Assistance",
-      description: "Financing may be available for qualifying minor repairs with no interest and flexible repayment options.",
+      title: "Asistencia con Reparaciones",
+      description: "Ofrecemos opciones de financiamiento para reparaciones menores que califiquen, sin intereses y con pagos flexibles.",
       icon: <Wrench className="w-7 h-7" />
     }
   ]
-
-
   return (
     <main className="bg-slate-100 text-slate-900 min-h-screen">
-
       <Nav />
-
-
-      {/* HERO */}
-      <section className="relative min-h-130 bg-cover  bg-no-repeat flex items-center bg-left sm:bg-center" style={{ backgroundImage: `url(${bgimage1})` }}>
-
+      <section className="relative min-h-130 bg-cover bg-no-repeat flex items-center bg-left sm:bg-center" style={{ backgroundImage: `url(${bgimage1})` }}>
         <div className="max-w-7xl w-full mx-auto px-6 lg:px-8">
-
           <div className="max-w-xl">
-
             <p className="text-sm font-semibold text-blue-600 tracking-[0.2em]">
-              DRIVER BENEFITS
+              BENEFICIOS PARA CONDUCTORES
             </p>
-
             <h1 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
-              Built to Support
+              Diseñado para Apoyar
               <span className="block text-blue-600">
-                Your Success.
+                Tu Éxito.
               </span>
             </h1>
-
             <div className="w-16 h-1 bg-blue-600 mt-6"></div>
-
             <p className="mt-6 text-base sm:text-lg text-slate-600 leading-relaxed max-w-lg">
-              We provide the tools, opportunities, and support drivers need to stay moving and succeed on the road.
+              Brindamos las herramientas, oportunidades y el apoyo que los conductores necesitan para mantenerse en movimiento y alcanzar el éxito en la carretera.
             </p>
-
           </div>
-
         </div>
-
       </section>
-
-
-      {/* BENEFITS */}
       <section className="py-16 md:py-24 bg-slate-100">
-
         <div className="max-w-7xl w-full mx-auto px-6 lg:px-8">
-
-          {/* HEADING */}
           <div className="max-w-2xl mx-auto text-center">
-
             <p className="text-sm font-semibold text-blue-600 tracking-[0.2em]">
-              EVERYTHING WE OFFER
+              TODO LO QUE OFRECEMOS
             </p>
-
             <h2 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight">
-              Benefits That Keep You Moving
+              Beneficios que te Mantienen en Movimiento
             </h2>
-
             <div className="w-16 h-1 bg-blue-600 mt-6 mx-auto"></div>
-
             <p className="mt-6 text-slate-600 text-lg leading-relaxed">
-              MDS is committed to making life on the road easier. Here's what you can count on when working with us.
+              En MDS estamos comprometidos con hacer la vida en la carretera más fácil. Estos son algunos de los beneficios que puedes esperar al trabajar con nosotros.
             </p>
-
           </div>
-
-
-          {/* BENEFITS GRID */}
           <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
             {benefits.map((benefit) => (
-
               <div key={benefit.title} className="bg-white border border-slate-200 rounded-xl p-7 shadow-sm">
-
                 <div className="w-14 h-14 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center">
                   {benefit.icon}
                 </div>
-
                 <h3 className="mt-6 text-xl font-semibold">
                   {benefit.title}
                 </h3>
-
                 <div className="w-10 h-0.5 bg-blue-600 mt-4"></div>
-
                 <p className="mt-4 text-slate-600 leading-relaxed">
                   {benefit.description}
                 </p>
-
               </div>
-
             ))}
-
           </div>
-
         </div>
-
       </section>
-
-
-      {/* SUPPORT SECTION */}
       <section className="py-16 md:py-20 bg-white">
-
         <div className="max-w-7xl w-full mx-auto px-6 lg:px-8">
-
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-
             <div>
-
               <p className="text-sm font-semibold text-blue-600 tracking-[0.2em]">
-                MORE THAN DISPATCH
+                MÁS QUE DISPATCH
               </p>
-
               <h2 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight">
-                Support That Goes Beyond the Load.
+                Apoyo que Va Más Allá de la Carga.
               </h2>
-
               <p className="mt-6 text-slate-600 leading-relaxed">
-                At MDS, our relationship with drivers doesn't stop once a load is booked. We work personally with our drivers and provide the information and assistance they need throughout the process.
+                En MDS, nuestra relación con los conductores no termina cuando se reserva una carga. Trabajamos personalmente con nuestros conductores y les brindamos la información y asistencia que necesitan durante todo el proceso.
               </p>
-
               <div className="mt-8 space-y-4">
-
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-                  <p className="font-medium">Complete load confirmations</p>
+                  <p className="font-medium">Confirmaciones completas de las cargas</p>
                 </div>
-
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-                  <p className="font-medium">Clear and detailed settlements</p>
+                  <p className="font-medium">Liquidaciones claras y detalladas</p>
                 </div>
-
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-                  <p className="font-medium">Personalized driver support</p>
+                  <p className="font-medium">Atención personalizada al conductor</p>
                 </div>
-
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-                  <p className="font-medium">24/7 logbook assistance</p>
+                  <p className="font-medium">Asistencia con el logbook las 24 horas</p>
                 </div>
-
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
       <section className="py-16 md:py-24 bg-slate-100">
-
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-
           <div className="max-w-5xl mx-auto bg-blue-600 rounded-2xl px-8 py-12 md:px-12 md:py-14 shadow-lg">
-
             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
-
               <div className="max-w-xl text-center md:text-left">
-
                 <p className="text-sm font-semibold text-blue-100 tracking-[0.2em]">
-                  READY TO WORK WITH US?
+                  ¿LISTO PARA TRABAJAR CON NOSOTROS?
                 </p>
-
                 <h2 className="mt-3 text-3xl md:text-4xl font-bold text-white">
-                  Put MDS Behind Every Mile.
+                  MDS Contigo en Cada Milla.
                 </h2>
-
                 <p className="mt-4 text-blue-100 leading-relaxed">
-                  Get in touch with our team and learn more about the opportunities available to you.
+                  Ponte en contacto con nuestro equipo y conoce más sobre las oportunidades disponibles para ti.
                 </p>
-
               </div>
-
-              <a href="/contact" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
-                Contact Us →
-              </a>
-
+              <Link to="/es/ContactSpanish" className="bg-white text-blue-600 font-semibold px-7 py-3 rounded-lg text-center whitespace-nowrap hover:bg-slate-100 transition">
+                Contáctanos →
+              </Link>
             </div>
-
           </div>
-
         </div>
-
       </section>
-
-
       <Footer />
-
     </main>
   )
 }
 
-export default Benefits
+export default BenefitsSpanish
